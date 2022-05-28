@@ -49,6 +49,14 @@ To get books, simply send a GET to /books/author/ with the required fields in th
 ```
 http://localhost:4000/books/author?author=Sandesh k
 ```
+
+# To get status of a particular book 
+To get books, simply send a GET to /books/status/ with the required fields in the query string, like so:
+```
+http://localhost:4000/books/status?title=Atomic Habits
+```
+
+
 # API Endpoints
 
 ```
@@ -56,5 +64,6 @@ GET http://localhost:4000/books/
 POST http://localhost:4000/books/
 GET http://localhost:4000/books/category?category=fiction
 GET http://localhost:4000/books/title?title=Anna Karenina
+GET http://localhost:4000/books/status?title=Atomic Habits
 
 ```
