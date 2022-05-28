@@ -12,4 +12,5 @@ router.post("", crudController(Books).post);
   router.get("/category",crudController(Books).getCategory)
   router.get("/title",crudController(Books).getAllData)
   router.get("/author",crudController(Books).getAllDataAuthor)
+  router.get("/status",crudController(Books).getStatus)
 module.exports = router;
