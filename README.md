@@ -55,7 +55,10 @@ To get books, simply send a GET to /books/status/ with the required fields in th
 ```
 http://localhost:4000/books/status?title=Atomic Habits
 ```
-
+# Heroku deployment link
+```
+https://syngenta-library-assignment.herokuapp.com/books
+```
 
 # API Endpoints
 
